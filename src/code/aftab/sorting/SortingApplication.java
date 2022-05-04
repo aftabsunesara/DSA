@@ -9,7 +9,8 @@ public final class SortingApplication {
         System.out.printf("%7s %s %n", "Input:", Arrays.toString(DATA));
 
         ISorting sortingAlgorithm =
-                new OddEvenSort();
+                new MergeSort();
+        // new OddEvenSort();
         // new CocktailShakerSort();
         // new BubbleSort();
         // new SelectionSort();
